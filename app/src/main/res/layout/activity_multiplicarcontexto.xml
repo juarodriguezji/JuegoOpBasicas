@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26D597"
+    tools:context=".multiplicarcontexto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/multipl" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/multiplicando" />
+
+        <TextView
+            android:id="@+id/mula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="#171BEB"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/multiplicador" />
+
+        <TextView
+            android:id="@+id/mulb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="#171BEB"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/producto" />
+
+        <EditText
+            android:id="@+id/poruser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="#171BEB"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/multival"
+            android:layout_width="650dp"
+            android:layout_height="wrap_content"
+            android:text="DAR CLICK PARA VALIDAR" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/explimult" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alvaroflashcards">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_calvo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_calvo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlvaroFlashCards">
+        <activity
+            android:name=".multivoice"
+            android:exported="true" />
+        <activity
+            android:name=".restavoice"
+            android:exported="true" />
+        <activity
+            android:name=".sumavoice"
+            android:exported="true" />
+        <activity
+            android:name=".multiplicarcontexto"
+            android:exported="true" />
+        <activity
+            android:name=".restacontexto"
+            android:exported="true" />
+        <activity
+            android:name=".sumacontexto"
+            android:exported="true" />
+        <activity
+            android:name=".testeoduro"
+            android:exported="true" />
+        <activity
+            android:name=".plus"
+            android:exported="true" />
+        <activity
+            android:name=".aleatorias"
+            android:exported="true" />
+        <activity
+            android:name=".dividir"
+            android:exported="true" />
+        <activity
+            android:name=".multiplicar"
+            android:exported="true" />
+        <activity
+            android:name=".restar"
+            android:exported="true" />
+        <activity
+            android:name=".sumar"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
